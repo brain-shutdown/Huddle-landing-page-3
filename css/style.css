@@ -1,12 +1,9 @@
 :root {
-    --color-body-black: hsl(243, 87%, 12%);
-    --color-body-white: hsl(240, 75%, 98%);
-    --color-callout: hsl(238, 22%, 44%);
-    --color-primary: hsl(224, 93%, 58%);
-    --color-secondary: hsl(170, 45%, 43%);
-    --color-primary-hover: hsl(224, 93%, 63%);
-    --color-secondary-hover: hsl(170, 45%, 53%);
-    --color-background: hsl(0, 0%, 75%);
+    --color-primary: hsl(322, 100%, 66%);
+    --color-primary-hover: hsl(321, 100%, 78%);
+    --color-secondary: hsl(0, 100%, 63%);
+    --color-cyan: hsl(192, 100%, 9%);
+    --color-blue: hsl(207, 100%, 98%);
 }
 
 *,
@@ -42,7 +39,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     line-height: 1.1;
     margin-bottom: 2rem;
@@ -98,25 +95,14 @@ h3 {
 /* ************ */
 /* ICONS */
 /* ************ */
-.icon-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    transition: border 0.3s ease-in;
-}
-
 .icon {
     width: 20px;
     height: 20px;
     transition: fill 0.3s ease-in;
 }
-.icon--small {
-    width: 15px;
-    height: 15px;
+.icon--big {
+    width: 30px;
+    height: 30px;
 }
 
 .icon--white {
@@ -127,24 +113,8 @@ h3 {
     fill: var(--color-primary);
 }
 
-.icon--secondary {
-    fill: var(--color-secondary);
-}
-
-.icon--primary:hover {
-    fill: var(--color-primary-hover);
-}
-
-.icon--secondary:hover {
-    fill: var(--color-secondary-hover);
-}
-
-.icon-container:hover .icon {
-    fill: var(--color-secondary);
-}
-
-.icon-container:hover {
-    border: 1px solid var(--color-secondary);
+.icon-selectable:hover .icon {
+    fill: hsl(192, 100%, 50%);
 }
 
 /* ************ */
