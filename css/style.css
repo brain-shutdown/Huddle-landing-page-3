@@ -248,28 +248,29 @@ a {
 /* MEDIA */
 /* ************ */
 .media {
-    display: flex;
-    align-items: center;
-    justify-items: flex-start;
+    display: grid;
+    grid-auto-columns: max-content;
+    justify-content: center;
 }
 
 .media__image {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
+    width: 40px;
+    height: 40px;
 }
 
 .media__body {
-    margin: 0 2rem;
+    text-align: center;
 }
 
 .media__title {
     margin-bottom: 0.5rem;
     letter-spacing: 1px;
+    font-size: 7rem;
 }
 
 .media__text {
-    font-size: 1.1rem;
+    font-size: 1.8rem;
+    opacity: 0.5;
 }
 
 /* ************ */
