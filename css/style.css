@@ -340,15 +340,6 @@ a {
 /* FEATURES BLOCK */
 /* ************ */
 .block-features {
-    margin-bottom: 5rem;
-}
-
-.block-features:nth-of-type(2n - 1) {
-    background: url(../images/bg-section-top-mobile-2.svg), url(../images/bg-section-bottom-mobile-2.svg);
-    background-repeat: no-repeat;
-    background-clip: padding-box, padding-box;
-    background-position: 50% 100%, 50% 0%;
-    background-size: 100% 52px, 100% 112px;
     background-color: var(--color-blue);
     padding: 10rem 0;
 }
@@ -357,17 +348,11 @@ a {
     width: 100%;
 }
 
-@media screen and (min-width: 840px) {
-    .block-features:nth-of-type(2n - 1) {
-        background: url(../images/bg-section-top-desktop-1.svg), url(../images/bg-section-bottom-desktop-1.svg);
-        background-repeat: no-repeat;
-        background-clip: padding-box, padding-box;
-        background-position: 50% 100%, 50% 0%;
-        background-size: 100% 52px, 100% 112px;
-        background-color: var(--color-blue);
-        padding: 10rem 0;
-    }
+.block-features:nth-of-type(2) {
+    background-color: #fff;
+}
 
+@media screen and (min-width: 840px) {
     .block-features:nth-of-type(2n - 1) .block-features__image {
         order: 2;
     }
@@ -465,10 +450,6 @@ a {
 /* FOOTER */
 /* ************ */
 .footer {
-    background: url('../images/bg-footer-top-mobile.svg');
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    background-size: contain;
     background-color: var(--color-body);
     padding: 20rem 0;
 }
@@ -488,10 +469,6 @@ a {
 
 @media screen and (min-width: 840px) {
     .footer {
-        background: url('../images/bg-footer-top-desktop.svg');
-        background-repeat: no-repeat;
-        background-position: 50% 0%;
-        background-size: 100%;
         background-color: var(--color-body);
     }
 
@@ -502,4 +479,11 @@ a {
     .footer__description {
         order: -1;
     }
+}
+
+/* ************ */
+/* BACKGROUND WAVES */
+/* ************ */
+.bg-wave {
+    display: block;
 }
