@@ -1,0 +1,38 @@
+<section class="block">
+    <article class="block-features">
+        <div class="container grid grid--1x2 ai-c gap-10">
+            <img src="images/illustration-grow-together.svg" alt="" class="block-features__image" />
+            <header class="block__header">
+                <h2 class="block__heading">Grow Together</h2>
+                <p>
+                    Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you
+                    miss out on with a feedback form.
+                </p>
+            </header>
+        </div>
+    </article>
+    <article class="block-features">
+        <div class="container grid grid--1x2 ai-c gap-10">
+            <img src="images/illustration-grow-together.svg" alt="" class="block-features__image" />
+            <header class="block__header">
+                <h2 class="block__heading">Grow Together</h2>
+                <p>
+                    Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you
+                    miss out on with a feedback form.
+                </p>
+            </header>
+        </div>
+    </article>
+    <article class="block-features">
+        <div class="container grid grid--1x2 ai-c gap-10">
+            <img src="images/illustration-grow-together.svg" alt="" class="block-features__image" />
+            <header class="block__header">
+                <h2 class="block__heading">Grow Together</h2>
+                <p>
+                    Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you
+                    miss out on with a feedback form.
+                </p>
+            </header>
+        </div>
+    </article>
+</section>
